@@ -1,7 +1,20 @@
 <html>
 <body style="background-color:rgb(228, 210, 50);">
 <style>
-    
+@keyframes rainbow {
+  0% { color: #fc0303 }
+  17% { color: #45f52a }
+  34% { color: #2a7bf5 }
+  51% { color: #2af5e4 }
+  68% { color: #c92af5 }
+  85% { color: #f5dd2a }
+  100% { color: #66655d }
+}
+.rainbow {
+  animation-name: rainbow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}    
 .city {
  background-color: rgb(121, 150, 121);
  color: rgb(0, 0, 0);
@@ -36,15 +49,16 @@ p, h1 {text-align:center}
 }
 </style>
 
-<img src="wp.jpg" alt="T duro" class="Center">
+<img src="wp.jpg" alt="juanito" class="Center">
 <div class="city">
+<div class="rainbow">
 <h1>
 
     My First page!!
 
 </h1>
 </div>
-
+</div>
 <div class="container">
 <div class="center2">
 <button type="button" 
